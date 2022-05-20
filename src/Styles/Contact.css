@@ -1,0 +1,17 @@
+.main{
+    position:relative;
+    top:10rem;
+    /* background-image:  	linear-gradient(to right, rgba(26, 111, 96, 1) 2%, rgba(28, 143, 84, 1) 100%); */
+    /* background-image: 	linear-gradient(to right, #ff9482,#7d77ff); */
+    background-color: #ff9677;
+   
+}
+
+.query{
+    font-size:20px;
+}
+@media(max-width:700px){
+    .main{
+        top:2px;
+    }
+}

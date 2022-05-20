@@ -1,0 +1,34 @@
+.about_text{
+    position:relative;
+    top:10rem;
+}
+
+.ht{
+    height:12rem;
+}
+
+@media(max-width:780px){
+    .ht{
+        width:100%;
+    }
+}
+
+.work_with{
+    position:relative;
+    top:15rem;
+}
+
+.cont{
+    position:relative;
+    top:20rem;
+}
+
+@media(max-width:700px){
+    .about_text{top:1rem;}
+    .work_with{
+            top:5rem;
+        }
+    .cont{
+        top:13rem;
+    }
+}

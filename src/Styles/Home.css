@@ -1,0 +1,28 @@
+.landingImage{
+    height:32rem;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.mid-text{
+  position:relative;
+  top:8rem;
+}
+@media(max-width:680px){
+    .mid-text{top:0px;}
+    .carousel-control-prev-icon,.carousel-control-next-icon{
+        position:absolute;
+        top:160px;
+    }
+    .landingImage{
+        height:20rem;
+    }
+}
+
+.mid-img{
+    height:23rem;
+}
+
+
