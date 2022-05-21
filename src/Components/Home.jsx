@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Home.css';
+import { BrowserRouter } from 'react-router-dom';
 import Cards from '../Components/Cards';
 import Navbar from '../Components/Navbar';
 import Carousel from '../Components/Carousel';

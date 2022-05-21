@@ -14,9 +14,9 @@ function Navbar() {
 
   return (
     <div className="nav">
-    <Link to="Contact" className="Contact btn btn-primary">Contact us</Link>
-    <Link to="About" className="About btn btn-primary">About us</Link>
-    <Link to="Teams" className="Teams btn btn-primary">Teams</Link>
+    <Link to="Contact" className="Contact navlinks ">Contact us</Link>
+    <Link to="About" className="About navlinks">About us</Link>
+    <Link to="Teams" className="Teams navlinks">Teams</Link>
     
 </div>
   )

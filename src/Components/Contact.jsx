@@ -23,8 +23,8 @@ function Contact() {
   return (
     <>
    
-    <div>Contact</div>
-    <section className="container card main ">
+    <div className="container cardz main ">
+    <h2><strong>Contact Us!</strong></h2>
        <div className="row">
            <div className="col-lg-6 col-md-6 col-sm-12">
                <Contact1 className="col-12" ></Contact1>
@@ -60,7 +60,7 @@ function Contact() {
            </div>
            </div>
        </div>
-    </section>
+    </div>
     </>
   )
 }

@@ -31,7 +31,7 @@ function Cards() {
 
          return<> 
                   
-         <div className="events_section card col-lg-3 col-md-5 col-sm-7">
+         <div className="events_section cardn col-lg-3 col-md-5 col-sm-7">
           <span className="name"><strong>{item.name}</strong></span>
           <span className="host"><strong>host :</strong> {item.host}</span>
           <span className="mobile_no"><strong>Mobile No :</strong> {item.mobileNo}</span>
